@@ -1,0 +1,9 @@
+-----------
+
+***WELCOME TO ZANDILE-MD PLUGINS LIST CREATED BY CAPTAI-MFOMBI***
+
+-----------
+
+***THE WORLD BEST WHATSAPP BOT***
+
+----------
