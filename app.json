@@ -1,0 +1,58 @@
+{
+  "name": "MFOMBI-MD",
+  "description": "Javascript WhatsApp bot made by Captain Mfombi ",
+  "logo": "https://files.catbox.moe/j4vrw9.jpg",
+  "keywords": ["ZANDILE-MD","BOYKA-MD"],
+  "success_url": "/",
+
+    "stack": "container",
+  "env": {
+    "SESSION_ID": {
+      "description": "Must Start with 'kirito~'",
+      "required": true,
+      "value": ""
+    },
+      "BOT_NAME": {
+        "description": "write here your bot name.",
+        "required": true,
+        "value": "MVOMBI-MD"      
+    },  
+    "MODE": {
+      "description": "Set private/public/inbox/groups",
+      "required": false,
+      "value": "public"
+     },
+   
+    "PREFIX": {
+      "description": "Your Bot Prefix (default: .) You can put your own custom prefix",
+      "required": true,
+      "value": "."
+    },
+    
+    "OWNER_NAME": {
+      "description": "Put Owner Name Here",
+      "required": true,
+      "value": "dev Mfombi"
+    },
+    "OWNER_NUMBER": {
+      "description": "Put only one Owner Number Here",
+      "required": true,
+      "value": "263738365123"
+    },
+    
+    "PRESENCE": {
+      "description": "Put online/typing/recording/unavailable",
+      "required": true,
+      "value": "online"
+    }
+
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
+  

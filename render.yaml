@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: mfombi-mk
+    repo: https://github.com/Joshuamambo1/MFOMBI-MD
+    branch: main
+    env: docker
+    dockerfilePath: lib/Dockerfile
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: SESSION_ID
+        sync: false
+        required: true
+      - key: PREFIX
+        sync: false
+        required: false
+      - key: SUDO
+        sync: false
+        required: false
+      - key: MODE
+        sync: false
+        required: false
+      - key: DATABASE_URL
+        sync: false
+        required: false
